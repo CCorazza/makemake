@@ -1,0 +1,13 @@
+SRC_DIR = srcs
+SRC =	 \
+		file.c \
+		main.c \
+		tools.c
+
+OBJ_DIR = objs
+OBJS= $(addprefix $(OBJ_DIR)/, $(SRC:.c=.o))
+
+INC_DIR = includes
+INFLAGS= -I$(INC_DIR)
+
+
