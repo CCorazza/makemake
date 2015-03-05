@@ -1,0 +1,9 @@
+This small program allows you to automatically create a Norminette-compliant Makefile. Compilation occurs with gcc and the -Wall -Wextra -Werror flags. I use separate files for your sources and the help file.
+
+# describe make help
+# describe sources
+# create a sweep option (clean a repository and redistribute files in appropriate directories) Great for existing projects.
+## Put it in a Makefile.init or give the option in the shell program
+# explain properly the different rules given
+# explain the no-relink property
+# in two years, add a NCurse interface. Create a proper ft_select to this purpose
