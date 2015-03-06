@@ -1,9 +1,27 @@
     This small program allows you to automatically create a Norminette-compliant Makefile. Compilation occurs with gcc and the -Wall -Wextra -Werror flags. I use separate files for your sources and the help file.
 
-# describe make help
-# describe sources
-# create a sweep option (clean a repository and redistribute files in appropriate directories) Great for existing projects.
-## Put it in a Makefile.init or give the option in the shell program
-# explain properly the different rules given
-# explain the no-relink property
-# in two years, add a NCurse interface. Create a proper ft_select to this purpose
+[?] create a sweep option (clean a repository and redistribute files in appropriate directories) for existing projects.
+    [-] Put it in a Makefile.init or give the option in the shell program
+[?] in two years, add a NCurse interface. Create a proper ft_select to this purpose
+
+
+[?] Create "make scratch" to start a new project
+[?] Create "make order" or "make sweep" to clean an existing repository
+
+
+[?] Create a "make UI" for User Interface (with NCurse or TermCaps)
+[?] Create a "make CLI" for Command Line interface
+
+    [!] The user should be able to choose if (s)he wants to interact with the script via an interface or the shell terminal.
+    Such use should be explained distinctively within the help files and commands.
+
+[?] Define a non-complex help system.
+    a[-] upon installation, 
+    b[-] explain properly the different rules given
+    b[-] explain the no-relink property
+    c[-] describe the directories
+    c[-] describe the make help ressource and how it differs from the actual help of the script creating the Makefile.
+        [*] Make help describes the re, clean, fclean, all rules.
+            [y] Given time, add a function to automatically update make help when the user adds a new feature
+    d[-] explain the choice on the arborescence for the directories
+    e[?] create a man page ?
