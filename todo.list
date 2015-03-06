@@ -1,4 +1,4 @@
-This small program allows you to automatically create a Norminette-compliant Makefile. Compilation occurs with gcc and the -Wall -Wextra -Werror flags. I use separate files for your sources and the help file.
+    This small program allows you to automatically create a Norminette-compliant Makefile. Compilation occurs with gcc and the -Wall -Wextra -Werror flags. I use separate files for your sources and the help file.
 
 # describe make help
 # describe sources
